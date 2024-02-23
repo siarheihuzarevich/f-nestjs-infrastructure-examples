@@ -29,12 +29,6 @@
       ],
       "@lib/domain/*": [
         "libs/domain/src/*"
-      ],
-      "@lib/f-mediator": [
-        "libs/f-mediator/src"
-      ],
-      "@lib/f-mediator/*": [
-        "libs/f-mediator/src/*"
       ]
     }
   }
