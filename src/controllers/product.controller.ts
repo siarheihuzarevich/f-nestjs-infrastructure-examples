@@ -19,7 +19,7 @@ export class ProductController {
    * @param {FMediator} mediator The mediator for CQRS pattern implementation.
    */
   constructor(
-    private mediator: FMediator
+      private mediator: FMediator
   ) {
   }
 
