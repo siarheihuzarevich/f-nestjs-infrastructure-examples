@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@lib/providers": [
+        "libs/providers/src"
+      ],
+      "@lib/providers/*": [
+        "libs/providers/src/*"
+      ],
+      "@lib/domain": [
+        "libs/domain/src"
+      ],
+      "@lib/domain/*": [
+        "libs/domain/src/*"
+      ],
+      "@lib/f-mediator": [
+        "libs/f-mediator/src"
+      ],
+      "@lib/f-mediator/*": [
+        "libs/f-mediator/src/*"
+      ]
+    }
+  }
+}
